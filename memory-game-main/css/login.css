@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("../images/hora.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(4px);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.login-container {
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login__input {
+  border: 2px solid #333;
+  border-radius: 8px;
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  max-width: 300px;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+}
+
+.login__button {
+  background-color: #6578e4;
+  border: 3px solid #42e787;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5em;
+  max-width: 300px;
+  padding: 15px;
+  width: 100%;
+}
+
+.login__button:disabled {
+  background-color: #ebb3e1;
+  border: 2px solid #969595;
+  color: #aaa;
+  cursor: auto;
+}
+
+h1 {
+  font-family: 'Adventure Time Logo', Arial, sans-serif;
+  text-align: center;
+  color: red;
+  font-size: 36px;
+  line-height: 1.2;
+  margin: 0;
+  padding-top: 20px;
+}
+
+h1 > span {
+  font-size: 72px;
+}
