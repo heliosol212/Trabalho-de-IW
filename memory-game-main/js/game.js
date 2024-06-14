@@ -3,16 +3,16 @@ const spanPlayer = document.querySelector('.player');
 const timer = document.querySelector('.timer');
 
 const characters = [
-  'mimi',
-  'jiji',
-  'kiki',
-  'totoro',
-  'menino-garca',
-  'mononoke',
-  'chihiro',
-  'ponyo',
-  'vagalume',
-  'mei',
+  'finn',
+  'jake',
+  'bmo',
+  'gunter',
+  'marceline',
+  'princesa-caroço',
+  'princesa-de-fogo',
+  'princesa-jujuba',
+  'rei-gelado',
+  'maga-caçadora',
 ];
 
 const createElement = (tag, className) => {
@@ -88,7 +88,7 @@ const createCard = (character) => {
   const front = createElement('div', 'face front');
   const back = createElement('div', 'face back');
 
-  front.style.backgroundImage = `url('../images/${character}.png')`;
+  front.style.backgroundImage = `url('../memory-game-main/images/${character}.png')`;
 
   card.appendChild(front);
   card.appendChild(back);
