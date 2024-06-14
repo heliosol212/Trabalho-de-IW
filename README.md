@@ -11,5 +11,5 @@
 ## Nicolas Pires
 - Responsável pela criação das imagens que usamos nas cartas do jogo da memória
 ## Guilherme Cruz e Matheus Almeida
-- Responsável pelas imagens
+- Responsáveis pelas imagens
 
