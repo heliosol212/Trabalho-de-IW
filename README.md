@@ -6,5 +6,5 @@
 ## Helio de Souza
 ## Gustavo Silva
 ## Nicolas Pires
-## BG
+## Guilherme Cruz
 ## Matheus Almeida
