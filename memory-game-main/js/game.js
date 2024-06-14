@@ -8,11 +8,11 @@ const characters = [
   'bmo',
   'gunter',
   'marceline',
-  'princesa-caroço',
+  'p-c',
   'princesa-de-fogo',
   'princesa-jujuba',
   'rei-gelado',
-  'maga-caçadora',
+  'm-c',
 ];
 
 const createElement = (tag, className) => {
