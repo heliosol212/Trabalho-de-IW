@@ -1,14 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-image: url('../images/bg.png');
+  background-image: url('../images/bg-game.jpg');
   background-size: cover;
-  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-grow: 1;
   align-items: center;
   justify-content: center;
   padding: 20px 20px 50px;
 }
+
 
 header {
   display: flex;
